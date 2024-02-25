@@ -1,0 +1,14 @@
+Label{
+	-fx-background-color :#008080;
+	-fx-text-fill :  #FFFFFF;
+	-fx-font-size : 14px;
+	-fx-font-weight : bold;
+	
+	
+}
+
+ Label:hover{
+ -fx-label-padding: 5px;
+ -fx-cursor :hand;
+ -fx-background-radius: 5px;
+}

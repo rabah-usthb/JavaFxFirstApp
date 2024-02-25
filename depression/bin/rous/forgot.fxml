@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="324.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.forgot">
+   <children>
+      <TextField fx:id="mail_field" layoutX="93.0" layoutY="158.0" promptText="email" />
+      <PasswordField fx:id="pass_field" layoutX="93.0" layoutY="240.0" promptText="New Password" />
+      <Button fx:id="con_button" alignment="CENTER" layoutX="129.0" layoutY="320.0" mnemonicParsing="false" onAction="#forgot_fx" text="Confirm">
+         <font>
+            <Font name="System Bold" size="12.288000106811523" />
+         </font></Button>
+      <SVGPath content="M 20 4 H 4 c -1.1 0 -1.99 0.9 -1.99 2 L 2 18 c 0 1.1 0.9 2 2 2 h 16 c 1.1 0 2 -0.9 2 -2 V 6 c 0 -1.1 -0.9 -2 -2 -2 Z m 0 4 l -8 5 l -8 -5 V 6 l 8 5 l 8 -5 v 2 Z" layoutX="49.0" layoutY="159.0" />
+      <SVGPath content="M 12.65 10 C 11.83 7.67 9.61 6 7 6 c -3.31 0 -6 2.69 -6 6 s 2.69 6 6 6 c 2.61 0 4.83 -1.67 5.65 -4 H 17 v 4 h 4 v -4 h 2 v -4 H 12.65 Z M 7 14 c -1.1 0 -2 -0.9 -2 -2 s 0.9 -2 2 -2 s 2 0.9 2 2 s -0.9 2 -2 2 Z" layoutX="49.0" layoutY="241.0" />
+      <SVGPath fx:id="lock_2" content="M 18 8 h -1 V 6 c 0 -2.76 -2.24 -5 -5 -5 S 7 3.24 7 6 v 2 H 6 c -1.1 0 -2 0.9 -2 2 v 10 c 0 1.1 0.9 2 2 2 h 12 c 1.1 0 2 -0.9 2 -2 V 10 c 0 -1.1 -0.9 -2 -2 -2 Z m -6 9 c -1.1 0 -2 -0.9 -2 -2 s 0.9 -2 2 -2 s 2 0.9 2 2 s -0.9 2 -2 2 Z m 3.1 -9 H 8.9 V 6 c 0 -1.71 1.39 -3.1 3.1 -3.1 c 1.71 0 3.1 1.39 3.1 3.1 v 2 Z" layoutX="150.0" layoutY="87.0" />
+      <SVGPath fx:id="lock_1" content="M 12 2 C 6.48 2 2 6.48 2 12 s 4.48 10 10 10 s 10 -4.48 10 -10 S 17.52 2 12 2 Z M 4 12 c 0 -4.42 3.58 -8 8 -8 c 1.85 0 3.55 0.63 4.9 1.69 L 5.69 16.9 C 4.63 15.55 4 13.85 4 12 Z m 8 8 c -1.85 0 -3.55 -0.63 -4.9 -1.69 L 18.31 7.1 C 19.37 8.45 20 10.15 20 12 c 0 4.42 -3.58 8 -8 8 Z" layoutX="150.0" layoutY="87.0" />
+      <Text layoutX="21.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forget Password">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Label fx:id="MAIL_MSG" layoutX="94.0" layoutY="188.0" prefHeight="19.0" prefWidth="146.0" textFill="RED" />
+      <Label fx:id="APPROVED_MSG" layoutX="94.0" layoutY="267.0" prefHeight="19.0" prefWidth="152.0" textFill="#04ffb4" />
+   </children>
+</AnchorPane>

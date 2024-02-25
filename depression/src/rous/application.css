@@ -1,0 +1,58 @@
+
+/* #008080 BLUE*/
+#left_section{
+	-fx-background-color :#008080;
+}
+#rightsection {
+	-fx-background-color:#FFFFFF;
+}
+
+#login_svg{
+	-fx-scale-x : 1.5;
+	-fx-scale-y : 1.5;
+}
+
+#sign_hyper{
+	-fx-text-fill :  #a7d6d6;
+}
+
+#lib_svg{
+	-fx-scale-x : 3.5;
+	-fx-scale-y : 3.5;
+}
+
+#gender_box{
+	-fx-background-color : white;
+	-fx-border-radius : 2px;
+	-fx-border-color :#D9D7D7;
+	-fx-border-width : 1.25px;
+}
+
+#lock_1{
+	-fx-scale-x : 2.5;
+	-fx-scale-y : 2.5;
+}
+
+
+#lock_2{
+	-fx-scale-x : 1.5;
+	-fx-scale-y : 1.5;
+}
+
+
+#con_button,#button_login,#button_sign{
+ -fx-background-color :#FFFFFF;
+ -fx-text-fill : #008080;
+ -fx-border-radius : 4px;
+ -fx-border-color:#008080;
+  
+ }
+ 
+
+ 
+ #button_login:hover,#button_sign:hover,#con_button:hover{
+ -fx-background-color :#008080;
+ -fx-text-fill : #FFFFFF;
+ -fx-cursor :hand;
+}
+ 
